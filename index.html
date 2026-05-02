@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>State of the Art in Breast Cancer | Hygieia Hub</title>
+    <title>State of the Art in Breast Cancer | Hygeia Hub</title>
     
     <!-- Fonts: Manrope (Display) & Inter (Body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -555,7 +555,7 @@
 
                 <!-- Bloque Derecho: Alianza Visual (LOGO SIN FILTROS) -->
                 <div class="flex flex-col items-center justify-center h-full w-full mt-16 lg:mt-0 relative">
-                    <img src="./logos/logo_hygeia.png" alt="Hygieia Hub" class="w-full max-w-xs md:max-w-md lg:max-w-xl h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-700" onerror="this.src='https://placehold.co/600x200/transparent/FF1865?text=Hygieia+Hub'">
+                    <img src="./logos/logo_hygeia.png" alt="Hygeia Hub" class="w-full max-w-xs md:max-w-md lg:max-w-xl h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-700" onerror="this.src='https://placehold.co/600x200/transparent/FF1865?text=Hygeia+Hub'">
                 </div>
                 
             </div>
@@ -568,11 +568,11 @@
             <div class="space-y-2 text-center md:text-left">
                 <!-- Logo sin filtros para asegurar visibilidad total -->
                 <div class="flex items-center justify-center md:justify-start mb-2">
-                    <img src="./logos/logo_hygeia.png" alt="Hygieia" class="h-20 w-auto" onerror="this.onerror=null; this.src='https://placehold.co/300x100/transparent/4a0420?text=Hygieia'">
+                    <img src="./logos/logo_hygeia.png" alt="Hygeia" class="h-20 w-auto" onerror="this.onerror=null; this.src='https://placehold.co/300x100/transparent/4a0420?text=Hygeia'">
                 </div>
                 <p class="text-[9px] font-black uppercase tracking-[0.4em] text-outline leading-loose">
                     © 2026 Madrid — Barcelona <br>
-                    Hygieia Learning Hub. Asesoría Académica Institucional
+                    Hygeia Learning Hub. Asesoría Académica Institucional
                 </p>
             </div>
             
@@ -778,15 +778,23 @@
       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
       createChat({
-        webhookUrl: 'https://n8n.asklepiosdat.com/webhook/edac84f4-2e21-42e9-8ff4-a019424a1adb/chat',
+        webhookUrl: 'https://n8n.asklepiosdat.com/webhook/cae964c1-c22c-48ef-af41-3d16b7bada92/chat',
         initialMessages: [
-            '¡Hola! Soy el Asesor Académico de Hygieia Learning Hub.',
+            '¡Hola! Soy el Asesor Académico de Hygeia Learning Hub.',
             '¿En qué puedo ayudarte hoy sobre la validación científica del programa State of the Art in Breast Cancer?'
         ],
         i18n: {
+            en: {
+                title: 'Hygeia Learning Hub', 
+                subtitle: 'Asesor de Información',
+                getStarted: 'Nueva conversación', 
+                chatInput: { 
+                    placeholder: 'Escribe tu consulta institucional aquí...' 
+                }
+            },
             es: {
-                title: 'Hygieia Learning Hub', 
-                subtitle: 'Asesoría Académica Institucional',
+                title: 'Hygeia Learning Hub', 
+                subtitle: 'Asesor de Información',
                 getStarted: 'Nueva conversación', 
                 chatInput: { 
                     placeholder: 'Escribe tu consulta institucional aquí...' 
